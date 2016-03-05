@@ -20,5 +20,10 @@
   return self;
 }
 
+
+-(NSString *) displayName
+{
+    return @"White-Label FM";
+}
 @end
 

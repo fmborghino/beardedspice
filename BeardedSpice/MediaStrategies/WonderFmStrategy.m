@@ -52,7 +52,7 @@
 
 -(NSString *) displayName
 {
-    return @"WonderFM";
+    return @"Wonder FM";
 }
 
 -(Track *) trackInfo:(TabAdapter *)tab

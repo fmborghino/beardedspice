@@ -20,5 +20,10 @@
   return self;
 }
 
+
+-(NSString *) displayName
+{
+    return @"Primary FM";
+}
 @end
 
