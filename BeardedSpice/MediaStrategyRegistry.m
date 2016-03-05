@@ -71,6 +71,8 @@
 #import "iHeartRadioStrategy.h"
 #import "BugsMusicStrategy.h"
 #import "VesselStrategy.h"
+#import "WhiteLabelStrategy.h"
+#import "PrimaryFmStrategy.h"
 
 @interface MediaStrategyRegistry ()
 @property (nonatomic, strong) NSMutableDictionary *registeredCache;
@@ -222,6 +224,7 @@
                        [PandoraStrategy new],
                        [PlexWebStrategy new],
                        [PocketCastsStrategy new],
+                       [PrimaryFmStrategy new],
                        [RdioStrategy new],
                        [RhapsodyStrategy new],
                        [SaavnStrategy new],
@@ -241,6 +244,7 @@
                        [VesselStrategy new],
                        [VimeoStrategy new],
                        [VkStrategy new],
+                       [WhiteLabelStrategy new],
                        [WonderFmStrategy new],
                        [XboxMusicStrategy new],
                        [YandexMusicStrategy new],
